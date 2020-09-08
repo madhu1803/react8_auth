@@ -1,0 +1,8 @@
+.dcard-container {
+    width: 18rem;
+    border: none !important;
+}
+
+.dcard-container .card-right-align {
+    float: right;
+}
