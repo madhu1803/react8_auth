@@ -7,8 +7,8 @@ import { BiDotsVerticalRounded, BiCalendarAlt } from "react-icons/bi";
 export default class Dcard extends Component {
   render() {
     return (
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <Card className="dcard-container mt-5 text-capitalize">
+      <div className="col-sm-12 col-md-6 col-lg-3">
+        <Card className="dcard-container mt-4 text-capitalize shadow p-3 mb-3 bg-white rounded">
           <Card.Body>
             <Card.Title>
               Johnson&johnson

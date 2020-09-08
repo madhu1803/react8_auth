@@ -2,16 +2,11 @@
     border: none !important;
 }
 
-/* @media (min-width: 768px) {
-    .dcard-container {
-        min-width: 14rem;
-        border: none !important;
-    }
-} */
+
 
 @media (max-width: 576px) {
     .dcard-container {
-        width: 15rem;
+        width: 16rem;
         border: none !important;
     }
 }
