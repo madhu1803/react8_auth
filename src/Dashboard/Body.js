@@ -14,8 +14,18 @@ export default class Body extends Component {
             <Button variant="success">Search</Button>
           </Form>
         </div>
-        <div className="dashboard-body">
-          <Dcard />
+        <div className="dashboard-body p-4">
+          <div className="row">
+            <Dcard />
+            <Dcard />
+            <Dcard />
+            <Dcard />
+            <Dcard />
+            <Dcard />
+            <Dcard />
+            <Dcard />
+            <Dcard />
+          </div>
         </div>
       </div>
     );
