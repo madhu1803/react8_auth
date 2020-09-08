@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Css/Body.css";
 import { Form, FormControl, Button } from "react-bootstrap";
 import Dcard from "../Components/DCard";
+import Footer from "./Footer";
 export default class Body extends Component {
   render() {
     return (
@@ -26,6 +27,9 @@ export default class Body extends Component {
             <Dcard />
             <Dcard />
           </div>
+        </div>
+        <div className="dashboard-footer p-4">
+          <Footer />
         </div>
       </div>
     );
