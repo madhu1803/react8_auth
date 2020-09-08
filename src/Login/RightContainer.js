@@ -16,6 +16,19 @@ export default class RightContainer extends Component {
   submitHandler = () => {
     alert("Submitted");
     console.log(this.state.email, this.state.password);
+    axios
+      .post("/https://gprs-api.geopits.com", {
+        login_username: this.state.email,
+        method_of_login: "email_password",
+        password: this.state.password,
+        platform: "retail_hub",
+      })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
 
   render() {
