@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import "./Css/Body.css";
 import { Form, FormControl, Button } from "react-bootstrap";
 import Dcard from "../Components/DCard";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 export default class Body extends Component {
   render() {
     return (
-      <div className="dashboard-container text-capitalize p-4">
+      <div className="dashboard-container text-capitalize">
         <div className="heading-container">
           <h6>welcome Ms Madhumithaa,</h6>
           <strong>List of Projects</strong>
@@ -27,9 +27,6 @@ export default class Body extends Component {
             <Dcard />
             <Dcard />
           </div>
-        </div>
-        <div className="dashboard-footer p-4">
-          <Footer />
         </div>
       </div>
     );
