@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Dropdown, Button } from "react-bootstrap";
+import { Card, Dropdown } from "react-bootstrap";
 import "./Dcard.css";
 import DropDown from "./DropDown";
 import { BiDotsVerticalRounded, BiCalendarAlt } from "react-icons/bi";
